@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: black;
+}
+
+.wrapper{
+    width: 605px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    padding: 30px 30px 25px;
+    border: 4px solid gold;
+}
+
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+}
+
+.content .qoute-area{
+        display: flex;
+        justify-content: center;
+}
+
+.qoute-area i{
+    font-size: 30px;
+}
+
+.qoute-area i:first-child{
+    margin: 3px 10px 0 0 ;
+}
+
+.qoute-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin:  0 0 3px 10px ;
+}
+
+.qoute-area .qoute{
+    font-size: 22px;
+    text-align: center;
+}
+
+.content .author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.wrapper .buttons{
+    border-top: 1px solid black;
+}
+
+em{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttons .features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    cursor: pointer;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    display: flex;
+    color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.features ul li:hover{
+    background: rgb(56, 70, 70);
+}
+
+.features button{
+    padding: 10px;
+    border-radius: 15px;        
+    border: 2px solid gold;
+    background: black ;
+    color: #fff;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
